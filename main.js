@@ -76,8 +76,7 @@ bot.on('ready', () => {
     bot.user.setPresence({
         game: {
             name: 'Prefix = t!',
-            type: "STREAMING",
-            url: "https://twitch.tv/Pascaldark"
+            type: "PLAYING"
         }
     });
 }); 
