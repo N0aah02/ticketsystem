@@ -3,6 +3,11 @@ var app = express();
 app.get("/", (request, response) => {
   response.sendStatus(200);
 });
+
+app.get("/discord", (req, res) => {
+   res.send("<a href='http://dc.eynoah.club' target='_blank'>My Discord!</a>");
+});
+
 app.listen(process.env.PORT);
 
 const Discord = require("discord.js");
